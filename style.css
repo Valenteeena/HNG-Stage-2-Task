@@ -398,4 +398,22 @@ header h4>span{
     .edu-dv-sec2 h4{
         font-size: 16px;
     }
+    .j{
+        margin-left: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .skills-dv1,
+    .skills-dv2{
+        width: 100%;
+    }
+    .skills-dv1 > div{
+        margin-right: 0;
+    }
+    .skills-dv1 h4,
+    .skills-dv2 h4{
+        font-size: 18px;
+        padding-top: 1rem;
+        width: 8rem;
+    }
 }
