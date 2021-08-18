@@ -1,5 +1,5 @@
 //Variable with my name
-const myName = "Adetoun Olayemi Olawumi";
+const myName = "Adetoun Olayemi";
 
 //Element to Display the name in HTML
 let nameElement = document.getElementById("myName");

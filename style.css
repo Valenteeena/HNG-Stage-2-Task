@@ -77,6 +77,7 @@ header h4>span{
     text-decoration: none;
     color: black;
 }
+.int-Section,
 .experience,
 .education,
 .tech,
@@ -86,6 +87,7 @@ header h4>span{
     clear: both;
     margin-top: 1rem;
 }
+.int-Section h2,
 .experience h2,
 .education h2,
 .tech h2,
@@ -114,6 +116,25 @@ header h4>span{
 .flx{
     display: flex;
     justify-content: flex-start;
+}
+.int-div{
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.int-div div img{
+    margin-bottom: 1rem;
+}
+.int-div div a:hover {
+    text-decoration: underline;
+    color: #2F195F;
+}
+.int-div div a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    margin-top: 2rem;
 }
 .edu-dv{
     margin-bottom: 1rem;
@@ -270,8 +291,111 @@ header h4>span{
 .hob h4{
     padding-top: 1.5rem;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     /* body{
         width: 100vw;
     } */
+    .int-div{
+        flex-wrap: wrap;
+    }
+    .int-div div{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    #container{
+        width: 100%;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 4rem;
+    }
+}
+
+
+@media only screen and (max-width:500px){
+    #container{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    header h1{
+        font-size: 70px;
+        color: white;
+        padding: 4rem 1rem 0 1rem;
+        background-color: #2f195f;
+        border-radius: 5px;
+    }
+    .intro-text{
+        padding-top: 1rem;
+    }
+    .intro-text h1{
+        font-size: 27px;
+        margin-bottom: 2rem;
+    }
+    .intro-text h1 span{
+        padding-right: .5rem;
+    }
+    .intro-text p{
+        font-size: 18px;
+        line-height:22px;
+    }
+    .personal-info{
+        font-size: 16px ;
+    }
+    .personal-info dt{
+        padding-right: .5rem;
+    }
+    .int-Section h2,
+    .experience h2,
+    .education h2,
+    .tech h2,
+    .learn h2,
+    .proj h2,
+    .foot-div h2
+    {
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .sect{
+        font-size: 22px;
+        padding-top: 1rem;
+    }
+    .txt-col{
+        font-size: 23px;
+        padding: .9rem 0.5rem ;
+    }
+    .edu-dv{
+        margin-bottom: 1rem;
+    }
+    .exp-dv-sec1,
+    .edu-dv-sec1{
+        font-size: 20px;
+        margin-right:0;
+        width: 30%;
+    }
+    .exp-dv-sec2{
+        width: 60%;
+    }
+    .edu-dv-sec1 h3,
+    .exp-dv-sec2 h3,
+    .edu-dv-sec2 h3{
+        font-size: 18px;
+    }
+    .col{
+        font-size: 18px;
+    }
+    .exp-dv-sec2 p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .edu-dv-sec2 p{
+        font-size: 16px;
+    }
+    .edu-dv-sec2 h4{
+        font-size: 16px;
+    }
 }
