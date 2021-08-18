@@ -120,7 +120,8 @@ header h4 > span {
   justify-content: space-between;
   align-items: baseline;
   text-align: center;
-  flex-wrap: wrap;
+  width: 100%;
+  /* flex-wrap: wrap; */
 }
 .int-div div img {
   margin-bottom: 1rem;
